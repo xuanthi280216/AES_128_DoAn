@@ -1,0 +1,7 @@
+
+State Machine - |AES_128_Key_Mem|key_mem_ctrl_reg
+Name key_mem_ctrl_reg.CTRL_DONE key_mem_ctrl_reg.CTRL_GENERATE key_mem_ctrl_reg.CTRL_INIT key_mem_ctrl_reg.CTRL_IDLE 
+key_mem_ctrl_reg.CTRL_IDLE 0 0 0 0 
+key_mem_ctrl_reg.CTRL_INIT 0 0 1 1 
+key_mem_ctrl_reg.CTRL_GENERATE 0 1 0 1 
+key_mem_ctrl_reg.CTRL_DONE 1 0 0 1 

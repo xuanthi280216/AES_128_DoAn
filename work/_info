@@ -1,0 +1,98 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/xuant/Documents/GitHub/AES_DoAn_HK212
+vAES_128_Key_Mem
+!s110 1652882157
+!i10b 1
+!s100 ZB:@MzNE<@h7;5K:BK[1F1
+IgzH`2`AaVU8cWB:>Y;F<`0
+Z0 VDg1SIo80bB@j0V0VzS_@n1
+Z1 dC:/Users/xuant/Documents/AES_128_DoAn
+w1652882096
+8C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_128_Key_Mem.v
+FC:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_128_Key_Mem.v
+L0 5
+Z2 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z3 !s108 1652882157.000000
+!s107 C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_128_Key_Mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_128_Key_Mem.v|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+n@a@e@s_128_@key_@mem
+vAES_Inv_Sbox
+Z6 !s110 1652882158
+!i10b 1
+!s100 NfY4R`O2b8KWfa8emSIlD1
+I]g;ag2<Li7am9;1DJ?=JL2
+R0
+R1
+w1652880970
+8C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Inv_Sbox.v
+FC:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Inv_Sbox.v
+L0 7
+R2
+r1
+!s85 0
+31
+R3
+!s107 C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Inv_Sbox.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Inv_Sbox.v|
+!i113 1
+R4
+R5
+n@a@e@s_@inv_@sbox
+vAES_Sbox
+R6
+!i10b 1
+!s100 R^c;^be7N_US9GklW`J2o3
+IW;mza6l?9i9bzl^?F>C=W2
+R0
+R1
+w1652880920
+8C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Sbox.v
+FC:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Sbox.v
+L0 9
+R2
+r1
+!s85 0
+31
+!s108 1652882158.000000
+!s107 C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Sbox.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Sbox.v|
+!i113 1
+R4
+R5
+n@a@e@s_@sbox
+vtb_AES_128_Key_Mem
+!s110 1652883353
+!i10b 1
+!s100 2DRez2dQNhb>N:iFTZ^^;1
+I978_]DI<S_3hojz7T9o@70
+R0
+R1
+w1652883344
+8C:/Users/xuant/Documents/AES_128_DoAn/tb/tb_AES_128_Key_Mem.v
+FC:/Users/xuant/Documents/AES_128_DoAn/tb/tb_AES_128_Key_Mem.v
+L0 6
+R2
+r1
+!s85 0
+31
+!s108 1652883353.000000
+!s107 C:/Users/xuant/Documents/AES_128_DoAn/tb/tb_AES_128_Key_Mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/AES_128_DoAn/tb/tb_AES_128_Key_Mem.v|
+!i113 1
+R4
+R5
+ntb_@a@e@s_128_@key_@mem
