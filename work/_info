@@ -8,91 +8,267 @@ z2
 !i10f 100
 cModel Technology
 dC:/Users/xuant/Documents/GitHub/AES_DoAn_HK212
+vAES_128
+Z0 !s110 1653096755
+!i10b 1
+!s100 6C^eK0LcgAbMb>dO4TeD72
+IXLnM1a5Ro975:Q_`23_2<0
+Z1 VDg1SIo80bB@j0V0VzS_@n1
+Z2 dC:/Users/xuant/Documents/GitHub/AES_128_DoAn
+w1653096439
+8C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128.v
+FC:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128.v
+L0 5
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1653096755.000000
+!s107 C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@a@e@s_128
+vAES_128_Core
+Z7 !s110 1653096754
+!i10b 1
+!s100 3W@M5Iz;dC4`N098PnPRL2
+ICTgRCEAk=:z[Wk6e72ahL2
+R1
+R2
+w1652888901
+8C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Core.v
+FC:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Core.v
+L0 6
+R3
+r1
+!s85 0
+31
+Z8 !s108 1653096754.000000
+!s107 C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Core.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Core.v|
+!i113 1
+R5
+R6
+n@a@e@s_128_@core
+vAES_128_Decipher_Block
+R7
+!i10b 1
+!s100 h7WQP0S=3A:<_z4j0mH;W1
+Ie;9kCS<lkHiX0b0:b9gal2
+R1
+R2
+w1652888097
+8C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Decipher_Block.v
+FC:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Decipher_Block.v
+L0 8
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Decipher_Block.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Decipher_Block.v|
+!i113 1
+R5
+R6
+n@a@e@s_128_@decipher_@block
+vAES_128_Encipher_Block
+Z9 !s110 1653096753
+!i10b 1
+!s100 L>5HlFaZKAj9YZK9g3LYG1
+IZdPe71>:5DX09[HcEFEfV3
+R1
+R2
+w1652887028
+8C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Encipher_Block.v
+FC:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Encipher_Block.v
+L0 8
+R3
+r1
+!s85 0
+31
+Z10 !s108 1653096753.000000
+!s107 C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Encipher_Block.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Encipher_Block.v|
+!i113 1
+R5
+R6
+n@a@e@s_128_@encipher_@block
 vAES_128_Key_Mem
-!s110 1652882157
+R9
 !i10b 1
 !s100 ZB:@MzNE<@h7;5K:BK[1F1
-IgzH`2`AaVU8cWB:>Y;F<`0
-Z0 VDg1SIo80bB@j0V0VzS_@n1
-Z1 dC:/Users/xuant/Documents/AES_128_DoAn
+IlNzoA^bhekSgfEnS^]j^A0
+R1
+R2
 w1652882096
-8C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_128_Key_Mem.v
-FC:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_128_Key_Mem.v
+8C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Key_Mem.v
+FC:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Key_Mem.v
 L0 5
-Z2 OV;L;10.5b;63
+R3
 r1
 !s85 0
 31
-Z3 !s108 1652882157.000000
-!s107 C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_128_Key_Mem.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_128_Key_Mem.v|
+R10
+!s107 C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Key_Mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Key_Mem.v|
 !i113 1
-Z4 o-work work
-Z5 tCvgOpt 0
+R5
+R6
 n@a@e@s_128_@key_@mem
 vAES_Inv_Sbox
-Z6 !s110 1652882158
+R9
 !i10b 1
 !s100 NfY4R`O2b8KWfa8emSIlD1
-I]g;ag2<Li7am9;1DJ?=JL2
-R0
+IMLc?Djm:cz>>UkQc7kUd_3
 R1
-w1652880970
-8C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Inv_Sbox.v
-FC:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Inv_Sbox.v
-L0 7
 R2
+w1652880970
+8C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_Inv_Sbox.v
+FC:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_Inv_Sbox.v
+L0 7
+R3
 r1
 !s85 0
 31
-R3
-!s107 C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Inv_Sbox.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Inv_Sbox.v|
+R10
+!s107 C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_Inv_Sbox.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_Inv_Sbox.v|
 !i113 1
-R4
 R5
+R6
 n@a@e@s_@inv_@sbox
 vAES_Sbox
-R6
+R7
 !i10b 1
 !s100 R^c;^be7N_US9GklW`J2o3
-IW;mza6l?9i9bzl^?F>C=W2
-R0
+IK@AI8WS9HX^;6;NR@H]mY3
 R1
-w1652880920
-8C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Sbox.v
-FC:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Sbox.v
-L0 9
 R2
+w1652880920
+8C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_Sbox.v
+FC:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_Sbox.v
+L0 9
+R3
 r1
 !s85 0
 31
-!s108 1652882158.000000
-!s107 C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Sbox.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Sbox.v|
+R10
+!s107 C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_Sbox.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_Sbox.v|
 !i113 1
-R4
 R5
+R6
 n@a@e@s_@sbox
+vtb_AES_128
+!s110 1653096899
+!i10b 1
+!s100 dc1hPDSi8[]5_1mje6lCE1
+IY8^LcG3^m1Ykn`kfznKRl0
+R1
+R2
+w1653096895
+8C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128.v
+FC:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1653096899.000000
+!s107 C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128.v|
+!i113 1
+R5
+R6
+ntb_@a@e@s_128
+vtb_AES_128_Core
+R0
+!i10b 1
+!s100 A2hT;Ga^:c=omfSLFL`d41
+IaLa;9B@BR79@;o2`62ScE2
+R1
+R2
+w1652889615
+8C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Core.v
+FC:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Core.v
+L0 6
+R3
+r1
+!s85 0
+31
+R4
+!s107 C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Core.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Core.v|
+!i113 1
+R5
+R6
+ntb_@a@e@s_128_@core
+vtb_AES_128_Decipher_Block
+R7
+!i10b 1
+!s100 Ti3Y1XYYlXRTk_aIM6HSD3
+ImHIkA99g?DnMUh1OnAE_g3
+R1
+R2
+w1652888500
+8C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Decipher_Block.v
+FC:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Decipher_Block.v
+L0 6
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Decipher_Block.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Decipher_Block.v|
+!i113 1
+R5
+R6
+ntb_@a@e@s_128_@decipher_@block
+vtb_AES_128_Encipher_Block
+R7
+!i10b 1
+!s100 jIzn>iA908@LE<^58Lz2n1
+I3cJa56oLWd2AM7KN<26U^3
+R1
+R2
+w1652887877
+8C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Encipher_Block.v
+FC:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Encipher_Block.v
+L0 6
+R3
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Encipher_Block.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Encipher_Block.v|
+!i113 1
+R5
+R6
+ntb_@a@e@s_128_@encipher_@block
 vtb_AES_128_Key_Mem
-!s110 1652883353
+R7
 !i10b 1
 !s100 2DRez2dQNhb>N:iFTZ^^;1
-I978_]DI<S_3hojz7T9o@70
-R0
+I72Va:ahgTZmo]?0>J^CJH1
 R1
-w1652883344
-8C:/Users/xuant/Documents/AES_128_DoAn/tb/tb_AES_128_Key_Mem.v
-FC:/Users/xuant/Documents/AES_128_DoAn/tb/tb_AES_128_Key_Mem.v
-L0 6
 R2
+w1652883434
+8C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Key_Mem.v
+FC:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Key_Mem.v
+L0 6
+R3
 r1
 !s85 0
 31
-!s108 1652883353.000000
-!s107 C:/Users/xuant/Documents/AES_128_DoAn/tb/tb_AES_128_Key_Mem.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/AES_128_DoAn/tb/tb_AES_128_Key_Mem.v|
+R8
+!s107 C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Key_Mem.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Key_Mem.v|
 !i113 1
-R4
 R5
+R6
 ntb_@a@e@s_128_@key_@mem

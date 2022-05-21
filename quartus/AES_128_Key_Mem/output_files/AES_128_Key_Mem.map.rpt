@@ -1,5 +1,5 @@
 Analysis & Synthesis report for AES_128_Key_Mem
-Wed May 18 20:57:49 2022
+Sat May 21 09:18:26 2022
 Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
@@ -46,7 +46,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed May 18 20:57:49 2022       ;
+; Analysis & Synthesis Status     ; Successful - Sat May 21 09:18:26 2022       ;
 ; Quartus Prime Version           ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
 ; Revision Name                   ; AES_128_Key_Mem                             ;
 ; Top-level Entity Name           ; AES_128_Key_Mem                             ;
@@ -170,13 +170,13 @@ https://fpgasoftware.intel.com/eula.
 +----------------------------+-------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                              ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                ; Library ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------------+---------+
-; ../../rtl/AES_128_Key_Mem.v      ; yes             ; User Verilog HDL File  ; C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_128_Key_Mem.v ;         ;
-+----------------------------------+-----------------+------------------------+-------------------------------------------------------------+---------+
++------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                     ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                       ; Library ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------+---------+
+; ../../rtl/AES_128_Key_Mem.v      ; yes             ; User Verilog HDL File  ; C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Key_Mem.v ;         ;
++----------------------------------+-----------------+------------------------+--------------------------------------------------------------------+---------+
 
 
 +------------------------------------------------------------------------------+
@@ -298,7 +298,7 @@ Encoding Type:  One-Hot
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:06     ;
+; Top            ; 00:00:05     ;
 +----------------+--------------+
 
 
@@ -308,12 +308,12 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
-    Info: Processing started: Wed May 18 20:57:04 2022
+    Info: Processing started: Sat May 21 09:17:59 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off AES_128_Key_Mem -c AES_128_Key_Mem
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file /users/xuant/documents/aes_128_doan/rtl/aes_128_key_mem.v
-    Info (12023): Found entity 1: AES_128_Key_Mem File: C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_128_Key_Mem.v Line: 5
+Info (12021): Found 1 design units, including 1 entities, in source file /users/xuant/documents/github/aes_128_doan/rtl/aes_128_key_mem.v
+    Info (12023): Found entity 1: AES_128_Key_Mem File: C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Key_Mem.v Line: 5
 Info (12127): Elaborating entity "AES_128_Key_Mem" for the top level hierarchy
 Info (286030): Timing-Driven Synthesis is running
 Info (17049): 3 registers lost all their fanouts during netlist optimizations.
@@ -324,9 +324,9 @@ Info (21057): Implemented 2568 device resources after synthesis - the final reso
     Info (21059): Implemented 161 output pins
     Info (21061): Implemented 2240 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4847 megabytes
-    Info: Processing ended: Wed May 18 20:57:49 2022
-    Info: Elapsed time: 00:00:45
-    Info: Total CPU time (on all processors): 00:01:04
+    Info: Peak virtual memory: 4841 megabytes
+    Info: Processing ended: Sat May 21 09:18:26 2022
+    Info: Elapsed time: 00:00:27
+    Info: Total CPU time (on all processors): 00:00:54
 
 

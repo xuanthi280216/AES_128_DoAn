@@ -1,0 +1,7 @@
+
+State Machine - |AES_128_Decipher_Block|dec_ctrl_reg
+Name dec_ctrl_reg.CTRL_MAIN dec_ctrl_reg.CTRL_SBOX dec_ctrl_reg.CTRL_INIT dec_ctrl_reg.CTRL_IDLE 
+dec_ctrl_reg.CTRL_IDLE 0 0 0 0 
+dec_ctrl_reg.CTRL_INIT 0 0 1 1 
+dec_ctrl_reg.CTRL_SBOX 0 1 0 1 
+dec_ctrl_reg.CTRL_MAIN 1 0 0 1 

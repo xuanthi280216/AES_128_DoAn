@@ -1,0 +1,7 @@
+
+State Machine - |AES_128_Encipher_Block|enc_ctrl_reg
+Name enc_ctrl_reg.CTRL_MAIN enc_ctrl_reg.CTRL_SBOX enc_ctrl_reg.CTRL_INIT enc_ctrl_reg.CTRL_IDLE 
+enc_ctrl_reg.CTRL_IDLE 0 0 0 0 
+enc_ctrl_reg.CTRL_INIT 0 0 1 1 
+enc_ctrl_reg.CTRL_SBOX 0 1 0 1 
+enc_ctrl_reg.CTRL_MAIN 1 0 0 1 

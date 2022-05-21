@@ -1,22 +1,85 @@
-C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Sbox.v {1 {vlog -work work -stats=none C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Sbox.v
+C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Decipher_Block.v {1 {vlog -work work -stats=none C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Decipher_Block.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_AES_128_Decipher_Block
+
+Top level modules:
+	tb_AES_128_Decipher_Block
+
+} {} {}} C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Key_Mem.v {1 {vlog -work work -stats=none C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Key_Mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_AES_128_Key_Mem
+
+Top level modules:
+	tb_AES_128_Key_Mem
+
+} {} {}} C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Encipher_Block.v {1 {vlog -work work -stats=none C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Encipher_Block.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AES_128_Encipher_Block
+
+Top level modules:
+	AES_128_Encipher_Block
+
+} {} {}} C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Encipher_Block.v {1 {vlog -work work -stats=none C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Encipher_Block.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_AES_128_Encipher_Block
+
+Top level modules:
+	tb_AES_128_Encipher_Block
+
+} {} {}} C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Core.v {1 {vlog -work work -stats=none C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Core.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AES_128_Core
+
+Top level modules:
+	AES_128_Core
+
+} {} {}} C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128.v {1 {vlog -work work -stats=none C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AES_128
+
+Top level modules:
+	AES_128
+
+} {} {}} C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Core.v {1 {vlog -work work -stats=none C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128_Core.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_AES_128_Core
+
+Top level modules:
+	tb_AES_128_Core
+
+} {} {}} C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Key_Mem.v {1 {vlog -work work -stats=none C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Key_Mem.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AES_128_Key_Mem
+
+Top level modules:
+	AES_128_Key_Mem
+
+} {} {}} C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_Sbox.v {1 {vlog -work work -stats=none C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_Sbox.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module AES_Sbox
 
 Top level modules:
 	AES_Sbox
 
-} {} {}} C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Inv_Sbox.v {1 {vlog -work work -stats=none C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_Inv_Sbox.v
+} {} {}} C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128.v {1 {vlog -work work -stats=none C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module tb_AES_128
+
+Top level modules:
+	tb_AES_128
+
+} {} {}} C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Decipher_Block.v {1 {vlog -work work -stats=none C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_128_Decipher_Block.v
+Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+-- Compiling module AES_128_Decipher_Block
+
+Top level modules:
+	AES_128_Decipher_Block
+
+} {} {}} C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_Inv_Sbox.v {1 {vlog -work work -stats=none C:/Users/xuant/Documents/GitHub/AES_128_DoAn/rtl/AES_Inv_Sbox.v
 Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
 -- Compiling module AES_Inv_Sbox
 
 Top level modules:
 	AES_Inv_Sbox
-
-} {} {}} C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_128_Key_Mem.v {1 {vlog -work work -stats=none C:/Users/xuant/Documents/AES_128_DoAn/rtl/AES_128_Key_Mem.v
-Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
--- Compiling module AES_128_Key_Mem
-
-Top level modules:
-	AES_128_Key_Mem
 
 } {} {}}
