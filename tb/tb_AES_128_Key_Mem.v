@@ -86,7 +86,7 @@ end
 //-----------------------------------------------------------------------------
 // dump_dut_state
 //
-// Dump the state of the dump when needed
+// Hien trancript kiem tra loi khi can thiet
 //-----------------------------------------------------------------------------
 task dump_dut_state; 
     begin
@@ -180,8 +180,7 @@ endtask
 //-----------------------------------------------------------------------------
 // check_key()
 //
-// Kiem tra cac khoa trong dut key memory 
-// Check a given key in the dut key memory chong lai mot
+// Kiem tra cac khoa trong dut key memory chong lai mot
 // khoa nhat dinh
 //-----------------------------------------------------------------------------
 task check_key(input [3:0] key_nr, input [127:0] expected); 

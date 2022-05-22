@@ -1,7 +1,7 @@
 //-----------------------------------------------------------------------------
 // tb_AES_128.v
 //
-// Testbench for the aes top level wrapper
+// Khoi ma bao boc loi khoi AES_128 (AES_128_Core)
 //-----------------------------------------------------------------------------
 module tb_AES_128();
 
@@ -112,7 +112,7 @@ end
 //-----------------------------------------------------------------------------
 // dump_dut_state
 //
-// Dump the state of the dump when needed
+// Hien trancript kiem tra loi khi can thiet
 //-----------------------------------------------------------------------------
 task dump_dut_state; 
     begin
@@ -376,8 +376,8 @@ task AES_test;
     reg [127:0] nist_ecb_128_enc_expected4;
 
     begin
-        nist_aes128_key1 = 256'h2b7e151628aed2a6abf7158809cf4f3c;
-        nist_aes128_key2 = 256'h000102030405060708090a0b0c0d0e0f;
+        nist_aes128_key1 = 128'h2b7e151628aed2a6abf7158809cf4f3c;
+        nist_aes128_key2 = 128'h000102030405060708090a0b0c0d0e0f;
 
         nist_plaintext0 = 128'h6bc1bee22e409f96e93d7e117393172a;
         nist_plaintext1 = 128'hae2d8a571e03ac9c9eb76fac45af8e51;

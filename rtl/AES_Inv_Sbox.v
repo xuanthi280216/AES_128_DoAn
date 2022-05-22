@@ -2,7 +2,7 @@
 // 
 // InvSubBytes() Transformation
 //
-// Hop S-box nghic dao. Don gian no la ROM 256 byte.
+// Hop S-box nghich dao. Don gian no la ROM 256 byte.
 //-----------------------------------------------------------------------------
 module AES_Inv_Sbox (
     input wire [31:0] sbox,

@@ -1,6 +1,6 @@
 // AES_128.v
 //
-// Khoi ma bao boc loi khoi AES (AES_Core)
+// Khoi ma bao boc loi khoi AES_128 (AES_128_Core)
 //-----------------------------------------------------------------------------
 module AES_128(
     // Clock va Reset
@@ -92,7 +92,7 @@ wire core_valid;
 //-----------------------------------------------------------------------------
 assign read_data = tmp_read_data;
 
-assign core_key = {key_reg[0], key_reg[1], 
+assign core_key = {key_reg[0], key_reg[1],
                    key_reg[2], key_reg[3]};
 
 assign core_block = {block_reg[0], block_reg[1],

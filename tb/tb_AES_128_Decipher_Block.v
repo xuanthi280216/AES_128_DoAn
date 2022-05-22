@@ -87,7 +87,7 @@ end
 //-----------------------------------------------------------------------------
 // dump_dut_state
 //
-// Dump the state of the dump when needed
+// Hien trancript kiem tra loi khi can thiet
 //-----------------------------------------------------------------------------
 task dump_dut_state; 
     begin

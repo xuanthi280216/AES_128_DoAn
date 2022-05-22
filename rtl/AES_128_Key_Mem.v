@@ -110,7 +110,7 @@ end
 //-----------------------------------------------------------------------------
 // key_mem_read
 //
-// Combinational read port for the key memory
+// Cong doc cho bo nho khoa (key memory)
 //-----------------------------------------------------------------------------
 always @(*) begin: key_mem_read
     tmp_round_key = key_mem[round];
@@ -119,7 +119,7 @@ end
 //-----------------------------------------------------------------------------
 // round_key_gen
 // 
-// Trinh tu vong khoa cua AES-128 va AES-256
+// Trinh tu vong khoa cua AES-128
 //-----------------------------------------------------------------------------
 always @(*) begin: round_key_gen
     reg [31:0] w0, w1, w2, w3;
