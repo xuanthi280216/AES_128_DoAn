@@ -147,10 +147,10 @@ always @(*) begin: round_key_gen
     w2 = prev_key_reg[63:32];
     w3 = prev_key_reg[31:0];
 
-    rconw = {rcon_reg, 24'h0};
-    tmp_sbox = w3;
-    rotstw = {new_sbox[23:0], new_sbox[31:24]};
-    trw = rotstw ^ rconw;
+    rconw = {rcon_reg, 24'h0};                      // Rcon[i/Nk]
+    tmp_sbox = w3;                                  // temp
+    rotstw = {new_sbox[23:0], new_sbox[31:24]};     // RotWord
+    trw = rotstw ^ rconw;                           // After XOR with Rcon
 
     // Tao cac thanh ghi round keys
     if (round_key_update) begin
@@ -168,6 +168,7 @@ always @(*) begin: round_key_gen
             k1 = w1 ^ w0 ^ trw;
             k2 = w2 ^ w1 ^ w0 ^ trw;
             k3 = w3 ^ w2 ^ w1 ^ w0 ^ trw;
+            // temp
         
             key_mem_new = {k0, k1, k2, k3};
             prev_key_new = {k0, k1, k2, k3};

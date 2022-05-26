@@ -1,5 +1,5 @@
 Fitter report for AES_128_Decipher_Block
-Sat May 21 09:07:18 2022
+Thu May 26 18:11:55 2022
 Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
@@ -63,7 +63,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Fitter Summary                                                                ;
 +---------------------------------+---------------------------------------------+
-; Fitter Status                   ; Successful - Sat May 21 09:07:18 2022       ;
+; Fitter Status                   ; Successful - Thu May 26 18:11:55 2022       ;
 ; Quartus Prime Version           ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
 ; Revision Name                   ; AES_128_Decipher_Block                      ;
 ; Top-level Entity Name           ; AES_128_Decipher_Block                      ;
@@ -158,7 +158,7 @@ https://fpgasoftware.intel.com/eula.
 ;                            ;             ;
 ; Usage by Processor         ; % Time Used ;
 ;     Processor 1            ; 100.0%      ;
-;     Processor 2            ;   2.1%      ;
+;     Processor 2            ;   1.8%      ;
 +----------------------------+-------------+
 
 
@@ -3246,7 +3246,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - mb3~0                    ; 1                 ; 0       ;
 ;      - addroundkey~5            ; 1                 ; 0       ;
 ;      - mb1~2                    ; 1                 ; 0       ;
-;      - gm2~1                    ; 1                 ; 0       ;
+;      - gm02~1                   ; 1                 ; 0       ;
 ;      - mb2~36                   ; 1                 ; 0       ;
 ;      - mb1~42                   ; 1                 ; 0       ;
 ;      - mb2~41                   ; 1                 ; 0       ;
@@ -3257,7 +3257,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - addroundkey~6            ; 1                 ; 0       ;
 ;      - mb0~3                    ; 1                 ; 0       ;
 ;      - mb3~6                    ; 1                 ; 0       ;
-;      - gm2~0                    ; 1                 ; 0       ;
+;      - gm02~0                   ; 1                 ; 0       ;
 ;      - mb2~48                   ; 1                 ; 0       ;
 ;      - mb0~72                   ; 1                 ; 0       ;
 ; round_key[97]                   ;                   ;         ;
@@ -3301,7 +3301,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; round_key[119]                  ;                   ;         ;
 ;      - mb1~2                    ; 1                 ; 0       ;
 ;      - addroundkey~13           ; 1                 ; 0       ;
-;      - gm2~2                    ; 1                 ; 0       ;
+;      - gm02~2                   ; 1                 ; 0       ;
 ;      - mb3~13                   ; 1                 ; 0       ;
 ;      - mb0~42                   ; 1                 ; 0       ;
 ;      - mb1~57                   ; 1                 ; 0       ;
@@ -3324,7 +3324,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - mb0~3                    ; 1                 ; 0       ;
 ;      - addroundkey~14           ; 1                 ; 0       ;
 ;      - mb1~8                    ; 1                 ; 0       ;
-;      - gm2~3                    ; 1                 ; 0       ;
+;      - gm02~3                   ; 1                 ; 0       ;
 ;      - mb1~57                   ; 1                 ; 0       ;
 ;      - Selector80~0             ; 1                 ; 0       ;
 ; round_key[106]                  ;                   ;         ;
@@ -3346,7 +3346,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - addroundkey~123          ; 0                 ; 0       ;
 ;      - Selector45~0             ; 0                 ; 0       ;
 ; round_key[99]                   ;                   ;         ;
-;      - gm2~1                    ; 1                 ; 0       ;
+;      - gm02~1                   ; 1                 ; 0       ;
 ;      - mb1~8                    ; 1                 ; 0       ;
 ;      - addroundkey~102          ; 1                 ; 0       ;
 ;      - Selector124~0            ; 1                 ; 0       ;
@@ -3354,22 +3354,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - Selector124~0            ; 1                 ; 0       ;
 ; round_key[3]                    ;                   ;         ;
 ;      - addroundkey~11           ; 0                 ; 0       ;
-;      - gm2~15                   ; 0                 ; 0       ;
+;      - gm02~15                  ; 0                 ; 0       ;
 ;      - mb1~39                   ; 0                 ; 0       ;
 ;      - Selector92~0             ; 0                 ; 0       ;
 ; round_key[107]                  ;                   ;         ;
 ;      - addroundkey~16           ; 0                 ; 0       ;
-;      - gm2~3                    ; 0                 ; 0       ;
+;      - gm02~3                   ; 0                 ; 0       ;
 ;      - mb0~42                   ; 0                 ; 0       ;
 ;      - Selector84~0             ; 0                 ; 0       ;
 ; round_key[123]                  ;                   ;         ;
 ;      - Selector4~0              ; 1                 ; 0       ;
 ;      - addroundkey~17           ; 1                 ; 0       ;
-;      - gm2~0                    ; 1                 ; 0       ;
+;      - gm02~0                   ; 1                 ; 0       ;
 ;      - mb2~41                   ; 1                 ; 0       ;
 ; round_key[115]                  ;                   ;         ;
 ;      - mb3~6                    ; 0                 ; 0       ;
-;      - gm2~2                    ; 0                 ; 0       ;
+;      - gm02~2                   ; 0                 ; 0       ;
 ;      - addroundkey~101          ; 0                 ; 0       ;
 ;      - Selector44~0             ; 0                 ; 0       ;
 ; round_key[100]                  ;                   ;         ;
@@ -3414,7 +3414,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - addroundkey~29           ; 0                 ; 0       ;
 ;      - mb1~28                   ; 0                 ; 0       ;
 ;      - mb2~32                   ; 0                 ; 0       ;
-;      - gm2~15                   ; 0                 ; 0       ;
+;      - gm02~15                  ; 0                 ; 0       ;
 ;      - mb3~33                   ; 0                 ; 0       ;
 ;      - mb2~58                   ; 0                 ; 0       ;
 ;      - mb1~80                   ; 0                 ; 0       ;
@@ -3473,7 +3473,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; round_key[79]                   ;                   ;         ;
 ;      - addroundkey~31           ; 1                 ; 0       ;
 ;      - mb0~12                   ; 1                 ; 0       ;
-;      - gm2~4                    ; 1                 ; 0       ;
+;      - gm02~4                   ; 1                 ; 0       ;
 ;      - mb1~43                   ; 1                 ; 0       ;
 ;      - mb1~48                   ; 1                 ; 0       ;
 ;      - mb0~70                   ; 1                 ; 0       ;
@@ -3488,7 +3488,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - addroundkey~35           ; 1                 ; 0       ;
 ;      - mb3~18                   ; 1                 ; 0       ;
 ;      - mb2~6                    ; 1                 ; 0       ;
-;      - gm2~5                    ; 1                 ; 0       ;
+;      - gm02~5                   ; 1                 ; 0       ;
 ;      - mb1~55                   ; 1                 ; 0       ;
 ;      - mb3~66                   ; 1                 ; 0       ;
 ;      - Selector24~0             ; 1                 ; 0       ;
@@ -3532,7 +3532,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - Selector32~0             ; 1                 ; 0       ;
 ;      - mb0~12                   ; 1                 ; 0       ;
 ;      - addroundkey~43           ; 1                 ; 0       ;
-;      - gm2~6                    ; 1                 ; 0       ;
+;      - gm02~6                   ; 1                 ; 0       ;
 ;      - mb2~12                   ; 1                 ; 0       ;
 ;      - mb3~51                   ; 1                 ; 0       ;
 ;      - mb0~59                   ; 1                 ; 0       ;
@@ -3566,7 +3566,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - mb3~18                   ; 1                 ; 0       ;
 ;      - addroundkey~44           ; 1                 ; 0       ;
 ;      - mb0~19                   ; 1                 ; 0       ;
-;      - gm2~7                    ; 1                 ; 0       ;
+;      - gm02~7                   ; 1                 ; 0       ;
 ;      - Selector72~0             ; 1                 ; 0       ;
 ; round_key[90]                   ;                   ;         ;
 ;      - Selector37~0             ; 1                 ; 0       ;
@@ -3575,7 +3575,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - mb3~51                   ; 1                 ; 0       ;
 ;      - addroundkey~125          ; 1                 ; 0       ;
 ; round_key[75]                   ;                   ;         ;
-;      - gm2~4                    ; 1                 ; 0       ;
+;      - gm02~4                   ; 1                 ; 0       ;
 ;      - mb0~19                   ; 1                 ; 0       ;
 ;      - addroundkey~111          ; 1                 ; 0       ;
 ;      - Selector116~0            ; 1                 ; 0       ;
@@ -3584,22 +3584,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; round_key[11]                   ;                   ;         ;
 ;      - addroundkey~40           ; 1                 ; 0       ;
 ;      - mb0~28                   ; 1                 ; 0       ;
-;      - gm2~14                   ; 1                 ; 0       ;
+;      - gm02~14                  ; 1                 ; 0       ;
 ;      - Selector52~0             ; 1                 ; 0       ;
 ; round_key[67]                   ;                   ;         ;
 ;      - addroundkey~46           ; 1                 ; 0       ;
-;      - gm2~5                    ; 1                 ; 0       ;
+;      - gm02~5                   ; 1                 ; 0       ;
 ;      - mb1~48                   ; 1                 ; 0       ;
 ;      - Selector28~0             ; 1                 ; 0       ;
 ; round_key[83]                   ;                   ;         ;
 ;      - addroundkey~47           ; 1                 ; 0       ;
-;      - gm2~7                    ; 1                 ; 0       ;
+;      - gm02~7                   ; 1                 ; 0       ;
 ;      - mb3~51                   ; 1                 ; 0       ;
 ;      - Selector76~0             ; 1                 ; 0       ;
 ; round_key[91]                   ;                   ;         ;
 ;      - Selector36~0             ; 1                 ; 0       ;
 ;      - mb2~6                    ; 1                 ; 0       ;
-;      - gm2~6                    ; 1                 ; 0       ;
+;      - gm02~6                   ; 1                 ; 0       ;
 ;      - addroundkey~110          ; 1                 ; 0       ;
 ; round_key[76]                   ;                   ;         ;
 ;      - addroundkey~54           ; 0                 ; 0       ;
@@ -3642,7 +3642,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; round_key[15]                   ;                   ;         ;
 ;      - addroundkey~58           ; 1                 ; 0       ;
 ;      - mb2~26                   ; 1                 ; 0       ;
-;      - gm2~14                   ; 1                 ; 0       ;
+;      - gm02~14                  ; 1                 ; 0       ;
 ;      - mb0~35                   ; 1                 ; 0       ;
 ;      - mb1~39                   ; 1                 ; 0       ;
 ;      - mb2~58                   ; 1                 ; 0       ;
@@ -3705,14 +3705,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - addroundkey~67           ; 0                 ; 0       ;
 ;      - mb2~17                   ; 0                 ; 0       ;
 ;      - mb1~17                   ; 0                 ; 0       ;
-;      - gm2~9                    ; 0                 ; 0       ;
+;      - gm02~9                   ; 0                 ; 0       ;
 ;      - mb0~57                   ; 0                 ; 0       ;
 ;      - mb2~70                   ; 0                 ; 0       ;
 ;      - Selector16~0             ; 0                 ; 0       ;
 ; round_key[55]                   ;                   ;         ;
 ;      - mb1~11                   ; 1                 ; 0       ;
 ;      - addroundkey~64           ; 1                 ; 0       ;
-;      - gm2~8                    ; 1                 ; 0       ;
+;      - gm02~8                   ; 1                 ; 0       ;
 ;      - mb0~45                   ; 1                 ; 0       ;
 ;      - mb3~54                   ; 1                 ; 0       ;
 ;      - mb0~50                   ; 1                 ; 0       ;
@@ -3731,7 +3731,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - Selector14~0             ; 1                 ; 0       ;
 ; round_key[39]                   ;                   ;         ;
 ;      - addroundkey~65           ; 1                 ; 0       ;
-;      - gm2~11                   ; 1                 ; 0       ;
+;      - gm02~11                  ; 1                 ; 0       ;
 ;      - mb1~23                   ; 1                 ; 0       ;
 ;      - mb2~55                   ; 1                 ; 0       ;
 ;      - mb3~55                   ; 1                 ; 0       ;
@@ -3782,7 +3782,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - mb2~17                   ; 1                 ; 0       ;
 ;      - addroundkey~74           ; 1                 ; 0       ;
 ;      - mb3~30                   ; 1                 ; 0       ;
-;      - gm2~10                   ; 1                 ; 0       ;
+;      - gm02~10                  ; 1                 ; 0       ;
 ;      - mb3~55                   ; 1                 ; 0       ;
 ;      - mb2~81                   ; 1                 ; 0       ;
 ; round_key[42]                   ;                   ;         ;
@@ -3804,7 +3804,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - mb2~55                   ; 1                 ; 0       ;
 ;      - Selector61~0             ; 1                 ; 0       ;
 ; round_key[51]                   ;                   ;         ;
-;      - gm2~8                    ; 0                 ; 0       ;
+;      - gm02~8                   ; 0                 ; 0       ;
 ;      - mb3~30                   ; 0                 ; 0       ;
 ;      - addroundkey~109          ; 0                 ; 0       ;
 ;      - Selector108~0            ; 0                 ; 0       ;
@@ -3812,22 +3812,22 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - Selector108~0            ; 0                 ; 0       ;
 ; round_key[19]                   ;                   ;         ;
 ;      - addroundkey~72           ; 1                 ; 0       ;
-;      - gm2~13                   ; 1                 ; 0       ;
+;      - gm02~13                  ; 1                 ; 0       ;
 ;      - mb3~38                   ; 1                 ; 0       ;
 ;      - Selector12~0             ; 1                 ; 0       ;
 ; round_key[43]                   ;                   ;         ;
 ;      - addroundkey~76           ; 1                 ; 0       ;
-;      - gm2~9                    ; 1                 ; 0       ;
+;      - gm02~9                   ; 1                 ; 0       ;
 ;      - mb0~50                   ; 1                 ; 0       ;
 ;      - Selector20~0             ; 1                 ; 0       ;
 ; round_key[59]                   ;                   ;         ;
 ;      - Selector68~0             ; 0                 ; 0       ;
 ;      - addroundkey~77           ; 0                 ; 0       ;
-;      - gm2~10                   ; 0                 ; 0       ;
+;      - gm02~10                  ; 0                 ; 0       ;
 ;      - mb2~55                   ; 0                 ; 0       ;
 ; round_key[35]                   ;                   ;         ;
 ;      - mb1~17                   ; 1                 ; 0       ;
-;      - gm2~11                   ; 1                 ; 0       ;
+;      - gm02~11                  ; 1                 ; 0       ;
 ;      - addroundkey~99           ; 1                 ; 0       ;
 ;      - Selector60~0             ; 1                 ; 0       ;
 ; round_key[52]                   ;                   ;         ;
@@ -3872,7 +3872,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - mb0~22                   ; 1                 ; 0       ;
 ;      - mb1~28                   ; 1                 ; 0       ;
 ;      - mb0~28                   ; 1                 ; 0       ;
-;      - gm2~13                   ; 1                 ; 0       ;
+;      - gm02~13                  ; 1                 ; 0       ;
 ;      - mb3~45                   ; 1                 ; 0       ;
 ;      - Selector8~0              ; 1                 ; 0       ;
 ; round_key[24]                   ;                   ;         ;
@@ -3896,7 +3896,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;      - mb0~22                   ; 1                 ; 0       ;
 ;      - addroundkey~92           ; 1                 ; 0       ;
 ;      - mb2~26                   ; 1                 ; 0       ;
-;      - gm2~12                   ; 1                 ; 0       ;
+;      - gm02~12                  ; 1                 ; 0       ;
 ;      - mb2~35                   ; 1                 ; 0       ;
 ;      - mb3~38                   ; 1                 ; 0       ;
 ; round_key[25]                   ;                   ;         ;
@@ -3917,7 +3917,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; round_key[27]                   ;                   ;         ;
 ;      - Selector100~0            ; 1                 ; 0       ;
 ;      - addroundkey~94           ; 1                 ; 0       ;
-;      - gm2~12                   ; 1                 ; 0       ;
+;      - gm02~12                  ; 1                 ; 0       ;
 ;      - mb2~32                   ; 1                 ; 0       ;
 ; block[27]                       ;                   ;         ;
 ;      - Selector100~0            ; 0                 ; 0       ;
@@ -4817,7 +4817,7 @@ Info (184020): Starting Fitter periphery placement operations
 Info (11191): Automatically promoted 2 clocks (2 global)
     Info (11162): clk~inputCLKENA0 with 139 fanout uses global clock CLKCTRL_G6
     Info (11162): reset_n~inputCLKENA0 with 139 fanout uses global clock CLKCTRL_G9
-Info (184021): Fitter periphery placement operations ending: elapsed time is 00:00:04
+Info (184021): Fitter periphery placement operations ending: elapsed time is 00:00:08
 Info (176233): Starting register packing
 Critical Warning (332012): Synopsys Design Constraints File file not found: 'AES_128_Decipher_Block.sdc'. A Synopsys Design Constraints File is required by the Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
 Info (332144): No user constrained base clocks found in the design
@@ -4826,31 +4826,31 @@ Info (332123): Deriving Clock Uncertainty. Please refer to report_sdc in the Tim
 Info (332130): Timing requirements not specified -- quality metrics such as performance may be sacrificed to reduce compilation time.
 Info (176235): Finished register packing
     Extra Info (176219): No registers were packed into other blocks
-Info (11798): Fitter preparation operations ending: elapsed time is 00:00:30
+Info (11798): Fitter preparation operations ending: elapsed time is 00:00:44
 Info (170189): Fitter placement preparation operations beginning
 Info (14951): The Fitter is using Advanced Physical Optimization.
-Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:46
+Info (170190): Fitter placement preparation operations ending: elapsed time is 00:01:14
 Info (170191): Fitter placement operations beginning
 Info (170137): Fitter placement was successful
-Info (170192): Fitter placement operations ending: elapsed time is 00:00:28
+Info (170192): Fitter placement operations ending: elapsed time is 00:00:52
 Info (170193): Fitter routing operations beginning
 Info (170195): Router estimated average interconnect usage is 0% of the available device resources
     Info (170196): Router estimated peak interconnect usage is 14% of the available device resources in the region that extends from location X73_Y34 to location X84_Y45
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (170194): Fitter routing operations ending: elapsed time is 00:00:27
-Info (11888): Total time spent on timing analysis during the Fitter is 3.07 seconds.
+Info (170194): Fitter routing operations ending: elapsed time is 00:00:33
+Info (11888): Total time spent on timing analysis during the Fitter is 3.84 seconds.
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:23
+Info (11801): Fitter post-fit operations ending: elapsed time is 00:00:33
 Info (144001): Generated suppressed messages file C:/Users/xuant/Documents/GitHub/AES_128_DoAn/quartus/AES_128_Decipher_Block/output_files/AES_128_Decipher_Block.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 6646 megabytes
-    Info: Processing ended: Sat May 21 09:07:20 2022
-    Info: Elapsed time: 00:05:21
-    Info: Total CPU time (on all processors): 00:10:42
+    Info: Peak virtual memory: 6643 megabytes
+    Info: Processing ended: Thu May 26 18:11:59 2022
+    Info: Elapsed time: 00:07:58
+    Info: Total CPU time (on all processors): 00:11:34
 
 
 +----------------------------+

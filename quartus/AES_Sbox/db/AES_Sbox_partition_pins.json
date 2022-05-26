@@ -1,0 +1,265 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "new_sbox[0]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[1]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[2]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[3]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[4]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[5]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[6]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[7]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[8]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[9]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[10]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[11]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[12]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[13]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[14]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[15]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[16]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[17]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[18]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[19]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[20]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[21]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[22]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[23]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[24]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[25]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[26]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[27]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[28]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[29]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[30]",
+					"strict" : false
+				},
+				{
+					"name" : "new_sbox[31]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[6]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[7]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[8]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[9]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[10]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[11]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[14]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[13]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[12]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[15]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[16]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[17]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[18]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[19]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[22]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[21]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[20]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[23]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[24]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[25]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[26]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[27]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[30]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[29]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[28]",
+					"strict" : false
+				},
+				{
+					"name" : "sbox[31]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -30,7 +30,6 @@ reg tb_clk;
 reg tb_reset_n;
 
 reg tb_next;
-reg tb_keylen;
 wire tb_ready;
 wire [3:0] tb_round;
 wire [127:0] tb_round_key;
@@ -240,24 +239,34 @@ initial begin: tb_AES_Decipher_Block
     reg [127:0] nist_plaintext2;
     reg [127:0] nist_plaintext3;
     reg [127:0] nist_plaintext4;
+    reg [127:0] nist_plaintext5;
 
     reg [127:0] nist_ecb_128_dec_ciphertext0;
     reg [127:0] nist_ecb_128_dec_ciphertext1;
     reg [127:0] nist_ecb_128_dec_ciphertext2;
     reg [127:0] nist_ecb_128_dec_ciphertext3;
     reg [127:0] nist_ecb_128_dec_ciphertext4;
+    reg [127:0] nist_ecb_128_dec_ciphertext5;
 
+    // NIST SP 800-38A:
+    // http://csrc.nist.gov/publications/nistpubs/800-38a/sp800-38a.pdf
     nist_plaintext0 = 128'h6bc1bee22e409f96e93d7e117393172a;
     nist_plaintext1 = 128'hae2d8a571e03ac9c9eb76fac45af8e51;
     nist_plaintext2 = 128'h30c81c46a35ce411e5fbc1191a0a52ef;
     nist_plaintext3 = 128'hf69f2445df4f9b17ad2b417be66c3710;
-    nist_plaintext4 = 128'h00112233445566778899aabbccddeeff;
 
     nist_ecb_128_dec_ciphertext0 = 128'h3ad77bb40d7a3660a89ecaf32466ef97;
     nist_ecb_128_dec_ciphertext1 = 128'hf5d3d58503b9699de785895a96fdbaaf;
     nist_ecb_128_dec_ciphertext2 = 128'h43b1cd7f598ece23881b00e3ed030688;
     nist_ecb_128_dec_ciphertext3 = 128'h7b0c785e27e8ad3f8223207104725dd4;
-    nist_ecb_128_dec_ciphertext4 = 128'h69c4e0d86a7b0430d8cdb78070b4c55a;
+
+    // NIST FIPS-197, Appendix B, C:
+    // https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.197.pdf
+    nist_plaintext4 = 128'h3243f6a8885a308d313198a2e0370734;
+    nist_plaintext5 = 128'h00112233445566778899aabbccddeeff;
+
+    nist_ecb_128_dec_ciphertext4 = 128'h3925841d02dc09fbdc118597196a0b32;
+    nist_ecb_128_dec_ciphertext5 = 128'h69c4e0d86a7b0430d8cdb78070b4c55a;
 
     $display("   -= Testbench for aes decipher block started =-");
     $display("     ============================================");
@@ -286,6 +295,9 @@ initial begin: tb_AES_Decipher_Block
     test_ecb_dec(nist_ecb_128_dec_ciphertext2, nist_plaintext2);
     test_ecb_dec(nist_ecb_128_dec_ciphertext3, nist_plaintext3);
 
+    // NIST FIPS-197, Appendix B
+    test_ecb_dec(nist_ecb_128_dec_ciphertext4, nist_plaintext4);
+
     // // NIST 128 bit NIST tests
     key_mem[00] = 128'h000102030405060708090a0b0c0d0e0f;
     key_mem[01] = 128'hd6aa74fdd2af72fadaa678f1d6ab76fe;
@@ -299,7 +311,8 @@ initial begin: tb_AES_Decipher_Block
     key_mem[09] = 128'h549932d1f08557681093ed9cbe2c974e;
     key_mem[10] = 128'h13111d7fe3944a17f307a78b4d2b30c5;
 
-    test_ecb_dec(nist_ecb_128_dec_ciphertext4, nist_plaintext4);
+    // NIST FIPS-197, Appendix C
+    test_ecb_dec(nist_ecb_128_dec_ciphertext5, nist_plaintext5);
 
     display_test_result();
     $display("");

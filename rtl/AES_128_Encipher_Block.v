@@ -40,23 +40,23 @@ localparam CTRL_MAIN = 2'h3;
 //-----------------------------------------------------------------------------
 // Cac function
 //-----------------------------------------------------------------------------
-function [7:0] gm2;
+function [7:0] gm02;
     input [7:0] op;
 
     begin
         // {op}.{02}
         // Dich 1 bit ngo vao va thuc hien phep XOR
         // voi {01}{1b} tren GF(2^8)
-        gm2 = {op[6:0], 1'b0} ^ (8'h1b & {8{op[7]}});
+        gm02 = {op[6:0], 1'b0} ^ (8'h1b & {8{op[7]}});
     end
 endfunction
 //-------------------------------------
-function [7:0] gm3;
+function [7:0] gm03;
     input [7:0] op;
 
     begin
         // {op}.{03} = {op}.({01} ^ {02})
-        gm3 = gm2(op) ^ op;
+        gm03 = gm02(op) ^ op;
     end
 endfunction
 //-------------------------------------
@@ -76,10 +76,10 @@ function [31:0] mixw;
         b2 = w[15:8];
         b3 = w[7:0];
 
-        mb0 = gm2(b0) ^ gm3(b1) ^ b2 ^ b3;
-        mb1 = b0 ^ gm2(b1) ^ gm3(b2) ^ b3;
-        mb2 = b0 ^ b1 ^ gm2(b2) ^ gm3(b3);
-        mb3 = gm3(b0) ^ b1 ^ b2 ^ gm2(b3);
+        mb0 = gm02(b0) ^ gm03(b1) ^ b2 ^ b3;
+        mb1 = b0 ^ gm02(b1) ^ gm03(b2) ^ b3;
+        mb2 = b0 ^ b1 ^ gm02(b2) ^ gm03(b3);
+        mb3 = gm03(b0) ^ b1 ^ b2 ^ gm02(b3);
 
         mixw = {mb0, mb1, mb2, mb3};
     end

@@ -38,41 +38,41 @@ localparam CTRL_MAIN = 2'h3;
 //-----------------------------------------------------------------------------
 // Cac function
 //-----------------------------------------------------------------------------
-function [7:0] gm2;
+function [7:0] gm02;
     input [7:0] op;
 
     begin
         // {op}.{02}
         // Dich 1 bit ngo vao va thuc hien phep XOR
         // voi {01}{1b} tren GF(2^8)
-        gm2 = {op[6:0], 1'b0} ^ (8'h1b & {8{op[7]}});
+        gm02 = {op[6:0], 1'b0} ^ (8'h1b & {8{op[7]}});
     end
 endfunction
 //-------------------------------------
-function [7:0] gm3;
+function [7:0] gm03;
     input [7:0] op;
 
     begin
         // {op}.{03} = {op}.({02} ^ {01})
-        gm3 = gm2(op) ^ op;
+        gm03 = gm02(op) ^ op;
     end
 endfunction
 //-------------------------------------
-function [7:0] gm4;
+function [7:0] gm04;
     input [7:0] op;
 
     begin
         // {op}.{04}
-        gm4 = gm2(gm2(op));
+        gm04 = gm02(gm02(op));
     end
 endfunction
 //-------------------------------------
-function [7:0] gm8;
+function [7:0] gm08;
     input [7:0] op;
 
     begin
         // {op}.{08}
-        gm8 = gm2(gm4(op));
+        gm08 = gm02(gm04(op));
     end
 endfunction
 //-------------------------------------
@@ -81,7 +81,7 @@ function [7:0] gm09;
 
     begin
         // {op}.{09} = {op}.({08} ^ {01})
-        gm09 = gm8(op) ^ op;
+        gm09 = gm08(op) ^ op;
     end
 endfunction
 //-------------------------------------
@@ -90,7 +90,7 @@ function [7:0] gm11;
 
     begin
         // {op}.{11} = {op}.({08} ^ {02} ^ {01})
-        gm11 = gm8(op) ^ gm2(op) ^ op;
+        gm11 = gm08(op) ^ gm02(op) ^ op;
     end
 endfunction
 //-------------------------------------
@@ -99,7 +99,7 @@ function [7:0] gm13;
 
     begin
         // {op}.{13} = {op}.({08} ^ {04} ^ {01})
-        gm13 = gm8(op) ^ gm4(op) ^ op;
+        gm13 = gm08(op) ^ gm04(op) ^ op;
     end
 endfunction
 //-------------------------------------
@@ -108,7 +108,7 @@ function [7:0] gm14;
 
     begin
         // {op}.{14} = {op}.({08} ^ {04} ^ {02})
-        gm14 = gm8(op) ^ gm4(op) ^ gm2(op);
+        gm14 = gm08(op) ^ gm04(op) ^ gm02(op);
     end
 endfunction
 //-------------------------------------
@@ -384,7 +384,7 @@ end
 //------------------------------------------------------------------------------
 // round_ctr
 //
-// Bo dem round voi chuc nang reset va tang bien dem
+// Bo dem round voi chuc nang reset va giam bien dem
 //------------------------------------------------------------------------------
 always @(*) begin: round_ctr
     round_ctr_new = 4'h0;
