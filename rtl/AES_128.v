@@ -1,3 +1,5 @@
+// Dang viet (chua xong)
+//
 // AES_128.v
 //
 // Khoi ma bao boc loi khoi AES_128 (AES_128_Core)

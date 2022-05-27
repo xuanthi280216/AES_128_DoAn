@@ -163,13 +163,13 @@ R5
 R6
 n@a@e@s_@sbox
 vtb_AES_128
-R0
+!s110 1653622741
 !i10b 1
-!s100 V2e42jfY1V4aHNkHV@=SW2
-IBz=fT>Y3`J_?a:cz@4H]H1
+!s100 B:6>9f>m6[<feYSg>Fk?b1
+IWD=fzC4W[IeSIP]_0]hzI1
 R1
 R2
-w1653157719
+w1653622739
 8C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128.v
 FC:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128.v
 L0 6
@@ -177,7 +177,7 @@ R3
 r1
 !s85 0
 31
-R4
+!s108 1653622741.000000
 !s107 C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/xuant/Documents/GitHub/AES_128_DoAn/tb/tb_AES_128.v|
 !i113 1

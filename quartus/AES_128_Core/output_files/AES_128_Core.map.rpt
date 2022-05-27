@@ -1,5 +1,5 @@
 Analysis & Synthesis report for AES_128_Core
-Wed May 25 15:51:35 2022
+Fri May 27 11:38:36 2022
 Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
@@ -50,7 +50,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Wed May 25 15:51:35 2022       ;
+; Analysis & Synthesis Status     ; Successful - Fri May 27 11:38:36 2022       ;
 ; Quartus Prime Version           ; 21.1.0 Build 842 10/21/2021 SJ Lite Edition ;
 ; Revision Name                   ; AES_128_Core                                ;
 ; Top-level Entity Name           ; AES_128_Core                                ;
@@ -378,7 +378,7 @@ Encoding Type:  One-Hot
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:28     ;
+; Top            ; 00:01:22     ;
 +----------------+--------------+
 
 
@@ -388,7 +388,7 @@ Encoding Type:  One-Hot
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
-    Info: Processing started: Wed May 25 15:50:36 2022
+    Info: Processing started: Fri May 27 11:36:25 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off AES_128_Core -c AES_128_Core
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 2 of the 2 processors detected
@@ -421,9 +421,9 @@ Info (21057): Implemented 4350 device resources after synthesis - the final reso
     Info (21059): Implemented 130 output pins
     Info (21061): Implemented 3959 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4857 megabytes
-    Info: Processing ended: Wed May 25 15:51:35 2022
-    Info: Elapsed time: 00:00:59
-    Info: Total CPU time (on all processors): 00:01:22
+    Info: Peak virtual memory: 4849 megabytes
+    Info: Processing ended: Fri May 27 11:38:36 2022
+    Info: Elapsed time: 00:02:11
+    Info: Total CPU time (on all processors): 00:01:39
 
 

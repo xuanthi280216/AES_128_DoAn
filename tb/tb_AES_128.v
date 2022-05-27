@@ -368,12 +368,14 @@ task AES_test;
     reg [127:0] nist_plaintext2;
     reg [127:0] nist_plaintext3;
     reg [127:0] nist_plaintext4;
+    reg [127:0] nist_plaintext5;
 
     reg [127:0] nist_ecb_128_enc_expected0;
     reg [127:0] nist_ecb_128_enc_expected1;
     reg [127:0] nist_ecb_128_enc_expected2;
     reg [127:0] nist_ecb_128_enc_expected3;
     reg [127:0] nist_ecb_128_enc_expected4;
+    reg [127:0] nist_ecb_128_enc_expected5;
 
     begin
         nist_aes128_key1 = 128'h2b7e151628aed2a6abf7158809cf4f3c;
@@ -384,12 +386,14 @@ task AES_test;
         nist_plaintext2 = 128'h30c81c46a35ce411e5fbc1191a0a52ef;
         nist_plaintext3 = 128'hf69f2445df4f9b17ad2b417be66c3710;
         nist_plaintext4 = 128'h00112233445566778899aabbccddeeff;
+        nist_plaintext5 = 128'h3243f6a8885a308d313198a2e0370734;
 
         nist_ecb_128_enc_expected0 = 128'h3ad77bb40d7a3660a89ecaf32466ef97;
         nist_ecb_128_enc_expected1 = 128'hf5d3d58503b9699de785895a96fdbaaf;
         nist_ecb_128_enc_expected2 = 128'h43b1cd7f598ece23881b00e3ed030688;
         nist_ecb_128_enc_expected3 = 128'h7b0c785e27e8ad3f8223207104725dd4;
         nist_ecb_128_enc_expected4 = 128'h69c4e0d86a7b0430d8cdb78070b4c55a;
+        nist_ecb_128_enc_expected5 = 128'h3925841d02dc09fbdc118597196a0b32;
 
         $display("ECB 128 bit key tests");
         $display("---------------------");
@@ -425,6 +429,13 @@ task AES_test;
 
         ecb_mode_single_block_test(8'h0a, AES_DECIPHER, nist_aes128_key2, AES_128_BIT_KEY,
                                    nist_ecb_128_enc_expected4, nist_plaintext4);
+
+
+        ecb_mode_single_block_test(8'h0b, AES_ENCIPHER, nist_aes128_key1, AES_128_BIT_KEY,
+                                   nist_plaintext5, nist_ecb_128_enc_expected5);
+
+        ecb_mode_single_block_test(8'h0c, AES_DECIPHER, nist_aes128_key1, AES_128_BIT_KEY,
+                                   nist_ecb_128_enc_expected5, nist_plaintext5);
                         
         $display("");
     end

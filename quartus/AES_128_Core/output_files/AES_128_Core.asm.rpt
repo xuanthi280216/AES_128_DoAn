@@ -1,5 +1,5 @@
 Assembler report for AES_128_Core
-Wed May 25 16:03:36 2022
+Fri May 27 11:58:22 2022
 Quartus Prime Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
 
 
@@ -38,7 +38,7 @@ https://fpgasoftware.intel.com/eula.
 +---------------------------------------------------------------+
 ; Assembler Summary                                             ;
 +-----------------------+---------------------------------------+
-; Assembler Status      ; Successful - Wed May 25 16:03:36 2022 ;
+; Assembler Status      ; Successful - Fri May 27 11:58:22 2022 ;
 ; Revision Name         ; AES_128_Core                          ;
 ; Top-level Entity Name ; AES_128_Core                          ;
 ; Family                ; Cyclone V                             ;
@@ -78,14 +78,14 @@ https://fpgasoftware.intel.com/eula.
 Info: *******************************************************************
 Info: Running Quartus Prime Assembler
     Info: Version 21.1.0 Build 842 10/21/2021 SJ Lite Edition
-    Info: Processing started: Wed May 25 16:02:58 2022
+    Info: Processing started: Fri May 27 11:57:17 2022
 Info: Command: quartus_asm --read_settings_files=off --write_settings_files=off AES_128_Core -c AES_128_Core
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (115030): Assembler is generating device programming files
 Info: Quartus Prime Assembler was successful. 0 errors, 1 warning
     Info: Peak virtual memory: 4913 megabytes
-    Info: Processing ended: Wed May 25 16:03:36 2022
-    Info: Elapsed time: 00:00:38
-    Info: Total CPU time (on all processors): 00:00:33
+    Info: Processing ended: Fri May 27 11:58:22 2022
+    Info: Elapsed time: 00:01:05
+    Info: Total CPU time (on all processors): 00:00:44
 
 
